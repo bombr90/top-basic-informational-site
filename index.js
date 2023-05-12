@@ -1,7 +1,8 @@
 const http = require("http");
 const fs = require("fs");
 
-const host = "127.0.0.1";
+// const host = "127.0.0.1";
+const host = "0.0.0.0";
 const port = 8080;
 
 const httpHandler = (request, response) => {
